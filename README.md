@@ -18,7 +18,7 @@ A análise de algoritmos permite determinar o custo de resolução de um problem
 ### 📊 Inventário de Funções (Melhor → Pior)
 1.  **$O(1)$**: Constante.
 2.  **$O(\log n)$**: Logarítmico.
-3.  **$O(n)$**: Linear[cite: 12].
+3.  **$O(n)$**: Linear.
 4.  **$O(n \log n)$**: Linear-logarítmico (limite de muitos problemas práticos).
 5.  **$O(n^2)$**: Quadrático.
 6.  **$O(k^n)$ ou $O(n!)$**: Exponencial (devem ser evitados).
@@ -33,7 +33,7 @@ A análise de algoritmos permite determinar o custo de resolução de um problem
 
 
 
-### 2. Quick Sort[cite: 11]
+### 2. Quick Sort
 É um dos algoritmos de ordenação mais eficientes, baseado na estratégia de **Dividir e Conquistar**:
 1.  Escolha de um **pivô**.
 2.  **Partição**: Elementos menores que o pivô vão para a esquerda; maiores para a direita.
@@ -56,7 +56,7 @@ A análise de algoritmos permite determinar o custo de resolução de um problem
 
 ### 📚 Pilhas (Stack)
 *   **Conceito**: **LIFO** (*Last In, First Out*) — O último a entrar é o primeiro a sair.
-*   **Operações**: `push` (inserir no topo) e `pop` (remover do topo)[cite: 13].
+*   **Operações**: `push` (inserir no topo) e `pop` (remover do topo).
 *   **Uso Real**: Histórico de navegadores, funções de "desfazer" (undo/redo) e recursão em compiladores.
 <div align="center">
   <sub>Repositório de estudos - Engenharia de Computação @ ESEG</sub>
